@@ -1,4 +1,4 @@
-# guitar-tabs
+# Recommended Guitar Songs (by Reddit users)
 
 List of recommended guitar songs from 30+ Reddit posts requesting songs to learn.
 
