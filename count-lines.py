@@ -12,6 +12,6 @@ for line in file:
 out = open("./most-recommended-guitar-songs", "w")
 
 for song, recommendation_count in sorted(songs.items(), key=lambda x: x[1], reverse=True):
-    line = "{}: [{}](https://www.songsterr.com/a/wa/search?pattern={})\n".format(str(recommendation_count), song.replace('\n', ''), urllib.quote(song))
+    line = "* {}: [{}](https://www.songsterr.com/a/wa/search?pattern={})\n".format(str(recommendation_count), song.replace('\n', ''), urllib.quote(song.replace("-", "")))
     out.write(line)
 
