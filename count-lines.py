@@ -19,3 +19,4 @@ def process_file(filename):
 
 process_file("recommended-guitar-songs-beginner")
 process_file("recommended-guitar-songs-intermediate")
+process_file("recommended-guitar-songs-advanced")
